@@ -26,6 +26,7 @@ my-learning/
 - 2026-02-27: 初始化目录结构
 - 2026-02-27: 添加 GitHub MCP Server 集成文档
 - 2026-02-28: 添加 MCP 与 Skills 组织指南、配置示例、Skills 参考文档
+- 2026-02-28: 添加 Git Push 超时解决方案文档
 
 ## 文档索引
 
@@ -37,3 +38,9 @@ my-learning/
 | [GitHub MCP Server 集成指南](./resources/github-mcp-server.md) | GitHub MCP 服务器安装与使用 |
 | [MCP 配置示例](./resources/mcp-config-examples.md) | 各种 MCP 服务器的配置模板 |
 | [Skills 参考资料](./resources/skills-reference.md) | 所有可用 Skills 的详细参考 |
+
+### 故障排除与解决方案
+
+| 文档 | 描述 |
+|------|------|
+| [Git Push 超时解决方案](./solutions/git-push-timeout-solutions.md) | 解决 Git 推送超时问题的10种方法 |
