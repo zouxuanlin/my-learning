@@ -28,6 +28,7 @@ my-learning/
 
 ## 更新记录
 
+- 2026-02-28: 添加 GitHub MCP 连接失败解决方案文档
 - 2026-02-28: 重组目录结构，将 resources/solutions/plans/notes 合并到 dev-tools/
 - 2026-02-28: 添加 Awesome-MCP-ZH MCP 服务器分类整理文档（20 分类 533 个项目）
 - 2026-02-28: 添加 Claude CLI 中 Browser MCP 无法调用问题解决方案文档
@@ -58,6 +59,7 @@ my-learning/
 | [Git Push 超时解决方案](./dev-tools/troubleshooting/git-push-timeout-solutions.md) | 解决 Git 推送超时问题的 10 种方法 |
 | [Zsh 拷贝粘贴卡顿解决方案](./dev-tools/troubleshooting/zsh-copy-paste-lag-solution.md) | 解决 macOS zsh 终端拷贝命令执行卡顿问题 |
 | [Browser MCP 无法调用解决方案](./dev-tools/troubleshooting/claude-mcp-browsermcp-solution.md) | 解决 Claude CLI 中 Browser MCP 配置无法识别的问题 |
+| [GitHub MCP 连接失败解决方案](./dev-tools/troubleshooting/github-mcp-connection-fix.md) | 解决 GitHub MCP Server 连接失败问题 |
 
 ### AI 工具与 MCP 服务器
 
