@@ -20,4 +20,5 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 - 笔记使用 Markdown 格式
 - 代码示例可放在 `.md` 文件中或独立代码文件
-- 每次新增或删除文档需要更新README
+- 每次新增或删除文档需要更新 README
+- **禁止在任何文件中包含敏感信息**（如 API tokens、密码、密钥、个人凭证等），配置示例应使用占位符（如 `your_token_here`、`<YOUR_API_KEY>`）
