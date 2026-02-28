@@ -27,6 +27,7 @@ my-learning/
 - 2026-02-27: 添加 GitHub MCP Server 集成文档
 - 2026-02-28: 添加 MCP 与 Skills 组织指南、配置示例、Skills 参考文档
 - 2026-02-28: 添加 Git Push 超时解决方案文档
+- 2026-02-28: 添加 Google NotebookLM 完整指南文档
 
 ## 文档索引
 
@@ -43,4 +44,10 @@ my-learning/
 
 | 文档 | 描述 |
 |------|------|
-| [Git Push 超时解决方案](./solutions/git-push-timeout-solutions.md) | 解决 Git 推送超时问题的10种方法 |
+| [Git Push 超时解决方案](./solutions/git-push-timeout-solutions.md) | 解决 Git 推送超时问题的 10 种方法 |
+
+### AI 工具与资源
+
+| 文档 | 描述 |
+|------|------|
+| [Google NotebookLM 完整指南](./ai-ml/tools/notebooklm.md) | NotebookLM 功能、架构、使用技巧全解析 |
