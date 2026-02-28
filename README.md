@@ -31,6 +31,7 @@ my-learning/
 - 2026-02-28: 添加 Browser MCP 浏览器自动化完整指南文档
 - 2026-02-28: 添加 macOS Zsh 拷贝粘贴卡顿解决方案文档
 - 2026-02-28: 添加 Claude CLI 中 Browser MCP 无法调用问题解决方案文档
+- 2026-02-28: 添加 Awesome-MCP-ZH MCP 服务器分类整理文档（20 分类 533 个项目）
 
 ## 文档索引
 
@@ -57,3 +58,5 @@ my-learning/
 |------|------|
 | [Google NotebookLM 完整指南](./ai-ml/tools/notebooklm.md) | NotebookLM 功能、架构、使用技巧全解析 |
 | [Browser MCP 完整指南](./ai-ml/tools/browser-mcp-guide.md) | 浏览器自动化 MCP 服务器配置与使用 |
+| [MCP 服务器分类速查表](./ai-ml/tools/mcp-servers-quick-reference.md) | 20 分类 533 个 MCP 服务器速查索引 |
+| [MCP 服务器完整列表](./ai-ml/tools/awesome-mcp-zh-servers.md) | Awesome-MCP-ZH 完整 MCP 服务器整理 |
