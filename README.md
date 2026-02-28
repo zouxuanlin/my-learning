@@ -28,6 +28,7 @@ my-learning/
 - 2026-02-28: 添加 MCP 与 Skills 组织指南、配置示例、Skills 参考文档
 - 2026-02-28: 添加 Git Push 超时解决方案文档
 - 2026-02-28: 添加 Google NotebookLM 完整指南文档
+- 2026-02-28: 添加 Browser MCP 浏览器自动化完整指南文档
 
 ## 文档索引
 
@@ -51,3 +52,4 @@ my-learning/
 | 文档 | 描述 |
 |------|------|
 | [Google NotebookLM 完整指南](./ai-ml/tools/notebooklm.md) | NotebookLM 功能、架构、使用技巧全解析 |
+| [Browser MCP 完整指南](./ai-ml/tools/browser-mcp.md) | 浏览器自动化 MCP 服务器配置与使用 |
