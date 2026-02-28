@@ -56,4 +56,4 @@ my-learning/
 | 文档 | 描述 |
 |------|------|
 | [Google NotebookLM 完整指南](./ai-ml/tools/notebooklm.md) | NotebookLM 功能、架构、使用技巧全解析 |
-| [Browser MCP 完整指南](./ai-ml/tools/browser-mcp.md) | 浏览器自动化 MCP 服务器配置与使用 |
+| [Browser MCP 完整指南](./ai-ml/tools/browser-mcp-guide.md) | 浏览器自动化 MCP 服务器配置与使用 |
