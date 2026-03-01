@@ -13,6 +13,7 @@ my-learning/
 ├── dev-tools/                  # 开发工具与配置
 │   ├── claude-code/            # Claude Code 相关文档 (MCP/Skills)
 │   ├── git/                    # Git 相关文档
+│   ├── hardware/               # 硬件设备使用指南 (相机/外设等)
 │   ├── openclaw/               # OpenClaw 相关文档 (配置/技能/用例)
 │   └── troubleshooting/        # 问题解决方案与故障排除
 ├── programming/                # 编程语言相关笔记 (Python, JavaScript, Go, Rust 等)
@@ -29,6 +30,7 @@ my-learning/
 
 ## 更新记录
 
+- 2026-03-01: 添加 DJI Pocket 3 完整使用指南（规格/设置/拍摄技巧/配件推荐）
 - 2026-03-01: 添加 Rust 编程语言学习资料（学习路线/快速入门/Crate 推荐/进度跟踪）
 - 2026-03-01: 添加 OpenClaw 使用案例汇总、配置指南、技能开发指南文档
 - 2026-02-28: 添加 GitHub MCP 连接失败解决方案文档
@@ -96,3 +98,9 @@ my-learning/
 | [Rust 快速入门](./programming/rust/quick-start.md) | Rust 安装、第一个程序和核心概念速查 |
 | [Rust 常用 Crate](./programming/rust/crates.md) | 精选 Rust 库推荐与使用场景 |
 | [Rust 学习进度跟踪](./programming/rust/learning-progress.md) | 学习清单和进度记录模板 |
+
+### 硬件设备
+
+| 文档 | 描述 |
+|------|------|
+| [DJI Pocket 3 完整使用指南](./dev-tools/hardware/pocket-3-guide.md) | Pocket 3 规格/设置/拍摄技巧/配件推荐 |
