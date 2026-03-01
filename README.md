@@ -29,6 +29,7 @@ my-learning/
 
 ## 更新记录
 
+- 2026-03-01: 添加 Rust 编程语言学习资料（学习路线/快速入门/Crate 推荐/进度跟踪）
 - 2026-03-01: 添加 OpenClaw 使用案例汇总、配置指南、技能开发指南文档
 - 2026-02-28: 添加 GitHub MCP 连接失败解决方案文档
 - 2026-02-28: 重组目录结构，将 resources/solutions/plans/notes 合并到 dev-tools/
@@ -86,3 +87,12 @@ my-learning/
 | 文档 | 描述 |
 |------|------|
 | [GitHub 设置计划](./dev-tools/github-setup-plan.md) | GitHub 相关设置与规划 |
+
+### 编程语言
+
+| 文档 | 描述 |
+|------|------|
+| [Rust 学习资料](./programming/rust/README.md) | Rust 语言学习路线、资源和实践指南 |
+| [Rust 快速入门](./programming/rust/quick-start.md) | Rust 安装、第一个程序和核心概念速查 |
+| [Rust 常用 Crate](./programming/rust/crates.md) | 精选 Rust 库推荐与使用场景 |
+| [Rust 学习进度跟踪](./programming/rust/learning-progress.md) | 学习清单和进度记录模板 |
