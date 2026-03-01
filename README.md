@@ -13,6 +13,7 @@ my-learning/
 ├── dev-tools/                  # 开发工具与配置
 │   ├── claude-code/            # Claude Code 相关文档 (MCP/Skills)
 │   ├── git/                    # Git 相关文档
+│   ├── openclaw/               # OpenClaw 相关文档 (配置/技能/用例)
 │   └── troubleshooting/        # 问题解决方案与故障排除
 ├── programming/                # 编程语言相关笔记 (Python, JavaScript, Go, Rust 等)
 ├── system-design/              # 系统设计与架构笔记
@@ -28,6 +29,7 @@ my-learning/
 
 ## 更新记录
 
+- 2026-03-01: 添加 OpenClaw 使用案例汇总、配置指南、技能开发指南文档
 - 2026-02-28: 添加 GitHub MCP 连接失败解决方案文档
 - 2026-02-28: 重组目录结构，将 resources/solutions/plans/notes 合并到 dev-tools/
 - 2026-02-28: 添加 Awesome-MCP-ZH MCP 服务器分类整理文档（20 分类 533 个项目）
@@ -70,6 +72,14 @@ my-learning/
 | [Browser MCP 文档](./ai-ml/mcp-servers/browser-mcp.md) | Browser MCP 相关文档 |
 | [MCP 服务器分类速查表](./ai-ml/mcp-servers/mcp-servers-quick-reference.md) | 20 分类 533 个 MCP 服务器速查索引 |
 | [MCP 服务器完整列表](./ai-ml/mcp-servers/awesome-mcp-zh-servers.md) | Awesome-MCP-ZH 完整 MCP 服务器整理 |
+
+### OpenClaw 相关
+
+| 文档 | 描述 |
+|------|------|
+| [OpenClaw 使用案例汇总](./dev-tools/openclaw/use-cases.md) | 10 大类使用场景与配置示例 |
+| [OpenClaw 配置指南](./dev-tools/openclaw/config-guide.md) | 完整配置模板与最佳实践 |
+| [OpenClaw 技能开发指南](./dev-tools/openclaw/skill-development.md) | 技能开发教程与示例 |
 
 ### 计划与规划
 
