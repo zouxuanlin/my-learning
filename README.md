@@ -7,9 +7,10 @@
 ```
 my-learning/
 ├── ai-ml/                      # 人工智能与机器学习笔记
-│   ├── mcp-servers/            # MCP 服务器文档与配置
 │   ├── ai-tools/               # AI 工具使用指南 (NotebookLM 等)
-│   └── ml-theory/              # 机器学习理论 (预留)
+│   ├── mcp-servers/            # MCP 服务器文档与配置
+│   ├── ml-theory/              # 机器学习理论 (预留)
+│   └── security/               # AI/系统安全研究 (密码学、认证、安全协议)
 ├── dev-tools/                  # 开发工具与配置
 │   ├── claude-code/            # Claude Code 相关文档 (MCP/Skills)
 │   ├── git/                    # Git 相关文档
@@ -30,6 +31,8 @@ my-learning/
 
 ## 更新记录
 
+- 2026-03-02: 添加 OpenClaw 快照恢复指南文档
+- 2026-03-02: 重组目录结构，将 papers/cryptography 移动到 ai-ml/security/
 - 2026-03-01: 添加 DJI Pocket 3 完整使用指南（规格/设置/拍摄技巧/配件推荐）
 - 2026-03-01: 添加 Rust 编程语言学习资料（学习路线/快速入门/Crate 推荐/进度跟踪）
 - 2026-03-01: 添加 OpenClaw 使用案例汇总、配置指南、技能开发指南文档
@@ -83,12 +86,8 @@ my-learning/
 | [OpenClaw 使用案例汇总](./dev-tools/openclaw/use-cases.md) | 10 大类使用场景与配置示例 |
 | [OpenClaw 配置指南](./dev-tools/openclaw/config-guide.md) | 完整配置模板与最佳实践 |
 | [OpenClaw 技能开发指南](./dev-tools/openclaw/skill-development.md) | 技能开发教程与示例 |
-
-### 计划与规划
-
-| 文档 | 描述 |
-|------|------|
-| [GitHub 设置计划](./dev-tools/github-setup-plan.md) | GitHub 相关设置与规划 |
+| [OpenClaw 子Agent创建指南](./dev-tools/openclaw/subagent-creation-guide.md) | 子Agent概念、创建方法、配置参数和最佳实践 |
+| [OpenClaw 快照恢复指南](./dev-tools/openclaw/snapshot-recovery.md) | 独立快照备份与恢复方案 |
 
 ### 编程语言
 
@@ -104,3 +103,17 @@ my-learning/
 | 文档 | 描述 |
 |------|------|
 | [DJI Pocket 3 完整使用指南](./dev-tools/hardware/pocket-3-guide.md) | Pocket 3 规格/设置/拍摄技巧/配件推荐 |
+
+### AI/系统安全
+
+| 文档 | 描述 |
+|------|------|
+| [量子密码算法研究报告](./ai-ml/quantum-cryptography-report.md) | 量子密钥分发(QKD)与后量子密码(PQC)全面分析 |
+| [密码学与安全论文阅读](./ai-ml/security/README.md) | 密码学、认证、AI 安全领域论文追踪 |
+| [每日论文模板](./ai-ml/security/daily-paper-template.md) | 论文阅读笔记模板 |
+
+### 计划与规划
+
+| 文档 | 描述 |
+|------|------|
+| [GitHub 设置计划](./dev-tools/github-setup-plan.md) | GitHub 相关设置与规划 |
