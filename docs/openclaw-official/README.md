@@ -1,10 +1,18 @@
-# OpenClaw 官方文档
+# OpenClaw 官方文档汇总
 
-从 https://docs.openclaw.ai 下载的官方文档内容。
+从 https://docs.openclaw.ai 下载的完整官方文档内容。
+
+## 文档目录
+
+- [主页](./README.md) - OpenClaw 简介和核心特性
+- [快速开始](./getting-started.md) - 5分钟快速上手指南
+- [聊天渠道](./channels.md) - 支持的所有聊天平台和配置
+- [工具系统](./tools.md) - 完整的工具清单和使用方法
+- [网关运行手册](./gateway.md) - Gateway 服务的详细操作指南
 
 ## 主页内容
 
-“EXFOLIATE! EXFOLIATE!” — A space lobster, probably
+"EXFOLIATE! EXFOLIATE!" — A space lobster, probably
 
 Any OS gateway for AI agents across WhatsApp, Telegram, Discord, iMessage, and more.
 
