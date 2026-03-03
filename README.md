@@ -1,6 +1,6 @@
-# My Learning
+# My Learning Repository
 
-个人学习笔记和资料整理目录。
+个人学习笔记仓库，用于整理和存储各类学习文档。
 
 ## 目录结构
 
@@ -23,14 +23,46 @@ my-learning/
 └── projects/                   # 学习项目代码
 ```
 
-## 使用说明
+## 规范
 
-- 每个目录下可以按主题或时间创建子目录
-- 笔记推荐使用 Markdown 格式
-- 代码示例可以放在对应的 `.md` 文件中或独立的代码文件里
+- 笔记使用 Markdown 格式
+- 代码示例可放在 `.md` 文件中或独立代码文件
+- **禁止在任何文件中包含敏感信息**（如 API tokens、密码、密钥、个人凭证等），配置示例应使用占位符（如 `your_token_here`、`<YOUR_API_KEY>`）
+- **新增文档时必须放到合适的目录下**：
+  - MCP 服务器文档 → `ai-ml/mcp-servers/`
+  - AI 工具指南 → `ai-ml/ai-tools/`
+  - Claude Code/Skills 文档 → `dev-tools/claude-code/`
+  - OpenClaw 文档 → `dev-tools/openclaw/`
+  - 问题解决方案 → `dev-tools/troubleshooting/`
+  - 编程语言笔记 → `programming/`
+  - 系统设计笔记 → `system-design/`
+  - 书籍笔记 → `books/`
+  - 项目代码 → `projects/`
+- **如有必要可以创建新的子目录**以更好地组织内容
 
-## 更新记录
+## 工作流程规范
 
+### 新增文档时
+
+1. **判断文档主题**，选择合适的目录：
+   - 参考上方「目录结构」的分类规则
+   - 如现有目录不适用，可创建新的子目录
+2. **创建文档**到目标目录
+3. **更新 README.md**（如新增目录或重要文档）
+4. **Git 提交**
+
+### 生成新文档后的必须操作
+
+每次创建、删除或大幅修改文档后，**必须**执行以下操作：
+
+1. **更新 README.md** - 同步文档目录结构的变化
+2. **Git 提交** - 将更改提交到仓库
+
+> 重要：这是强制性的最后步骤，不可跳过。
+
+## 近期更新记录
+
+- 2025-04-08: 添加 OpenClaw Agent 提示词技巧整理文档
 - 2026-03-02: 添加 OpenClaw 快照恢复指南文档
 - 2026-03-02: 重组目录结构，将 papers/cryptography 移动到 ai-ml/security/
 - 2026-03-01: 添加 DJI Pocket 3 完整使用指南（规格/设置/拍摄技巧/配件推荐）
@@ -48,19 +80,7 @@ my-learning/
 - 2026-02-27: 添加 GitHub MCP Server 集成文档
 - 2026-02-27: 初始化目录结构
 
-## 文档索引
-
-### Claude Code 相关
-
-| 文档 | 描述 |
-|------|------|
-| [MCP 与 Skills 组织指南](./dev-tools/claude-code/claude-code-mcp-skills-guide.md) | MCP 和 Skills 系统的完整组织方式 |
-| [GitHub MCP Server 集成指南](./dev-tools/claude-code/github-mcp-server.md) | GitHub MCP 服务器安装与使用 |
-| [MCP 配置示例](./dev-tools/claude-code/mcp-config-examples.md) | 各种 MCP 服务器的配置模板 |
-| [Notion MCP 配置](./dev-tools/claude-code/notion-mcp-config.md) | Notion MCP 服务器配置指南 |
-| [Skills 参考资料](./dev-tools/claude-code/skills-reference.md) | 所有可用 Skills 的详细参考 |
-
-### 故障排除与解决方案
+### 问题解决方案
 
 | 文档 | 描述 |
 |------|------|
@@ -88,6 +108,7 @@ my-learning/
 | [OpenClaw 技能开发指南](./dev-tools/openclaw/skill-development.md) | 技能开发教程与示例 |
 | [OpenClaw 子Agent创建指南](./dev-tools/openclaw/subagent-creation-guide.md) | 子Agent概念、创建方法、配置参数和最佳实践 |
 | [OpenClaw 快照恢复指南](./dev-tools/openclaw/snapshot-recovery.md) | 独立快照备份与恢复方案 |
+| [OpenClaw Agent 提示词技巧整理](./dev-tools/openclaw/openclaw-agent-prompt-techniques.md) | OpenClaw Agent 提示词工程最佳实践 |
 
 ### 编程语言
 
