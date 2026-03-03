@@ -20,6 +20,8 @@ my-learning/
 ├── programming/                # 编程语言相关笔记 (Python, JavaScript, Go, Rust 等)
 ├── system-design/              # 系统设计与架构笔记
 ├── books/                      # 书籍笔记和摘要
+├── docs/                       # 官方文档备份
+│   └── openclaw-official/      # OpenClaw 官方文档
 └── projects/                   # 学习项目代码
 ```
 
@@ -33,6 +35,7 @@ my-learning/
   - AI 工具指南 → `ai-ml/ai-tools/`
   - Claude Code/Skills 文档 → `dev-tools/claude-code/`
   - OpenClaw 文档 → `dev-tools/openclaw/`
+  - 官方文档备份 → `docs/openclaw-official/`
   - 问题解决方案 → `dev-tools/troubleshooting/`
   - 编程语言笔记 → `programming/`
   - 系统设计笔记 → `system-design/`
@@ -62,6 +65,7 @@ my-learning/
 
 ## 近期更新记录
 
+- 2026-03-03: 添加 OpenClaw 官方文档备份
 - 2026-03-03: 添加网页应用需求文档模板
 - 2026-03-03: 添加 OpenClaw Agent 提示词技巧整理文档
 - 2026-03-02: 添加 OpenClaw 快照恢复指南文档
@@ -110,6 +114,12 @@ my-learning/
 | [OpenClaw 子Agent创建指南](./dev-tools/openclaw/subagent-creation-guide.md) | 子Agent概念、创建方法、配置参数和最佳实践 |
 | [OpenClaw 快照恢复指南](./dev-tools/openclaw/snapshot-recovery.md) | 独立快照备份与恢复方案 |
 | [OpenClaw Agent 提示词技巧整理](./dev-tools/openclaw/openclaw-agent-prompt-techniques.md) | OpenClaw Agent 提示词工程最佳实践 |
+
+### 官方文档备份
+
+| 文档 | 描述 |
+|------|------|
+| [OpenClaw 官方文档](./docs/openclaw-official/README.md) | 从 docs.openclaw.ai 下载的官方文档内容 |
 
 ### 系统设计
 
