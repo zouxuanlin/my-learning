@@ -22,6 +22,7 @@ my-learning/
 ├── books/                      # 书籍笔记和摘要
 ├── docs/                       # 官方文档备份
 │   └── openclaw-official/      # OpenClaw 官方文档
+├── presentations/              # 演示文稿
 └── projects/                   # 学习项目代码
 ```
 
@@ -36,6 +37,7 @@ my-learning/
   - Claude Code/Skills 文档 → `dev-tools/claude-code/`
   - OpenClaw 文档 → `dev-tools/openclaw/`
   - 官方文档备份 → `docs/openclaw-official/`
+  - 演示文稿 → `presentations/`
   - 问题解决方案 → `dev-tools/troubleshooting/`
   - 编程语言笔记 → `programming/`
   - 系统设计笔记 → `system-design/`
@@ -65,6 +67,7 @@ my-learning/
 
 ## 近期更新记录
 
+- 2026-03-03: 添加阿里云通义千问大模型对比分析PPT
 - 2026-03-03: 添加 OpenClaw 官方文档备份
 - 2026-03-03: 添加网页应用需求文档模板
 - 2026-03-03: 添加 OpenClaw Agent 提示词技巧整理文档
@@ -126,6 +129,12 @@ my-learning/
 | 文档 | 描述 |
 |------|------|
 | [网页应用需求文档模板](./system-design/web-app-requirements-template.md) | 完整的网页应用需求分析模板 |
+
+### 演示文稿
+
+| 文档 | 描述 |
+|------|------|
+| [阿里云通义千问大模型对比分析](./presentations/aliyun-qwen-models-comparison.md) | Qwen-Max/Plus/Turbo/Long 四种模型的优劣对比分析 |
 
 ### 编程语言
 
