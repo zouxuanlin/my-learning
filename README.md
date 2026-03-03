@@ -62,6 +62,7 @@ my-learning/
 
 ## 近期更新记录
 
+- 2025-04-08: 添加网页应用需求文档模板
 - 2025-04-08: 添加 OpenClaw Agent 提示词技巧整理文档
 - 2026-03-02: 添加 OpenClaw 快照恢复指南文档
 - 2026-03-02: 重组目录结构，将 papers/cryptography 移动到 ai-ml/security/
@@ -109,6 +110,12 @@ my-learning/
 | [OpenClaw 子Agent创建指南](./dev-tools/openclaw/subagent-creation-guide.md) | 子Agent概念、创建方法、配置参数和最佳实践 |
 | [OpenClaw 快照恢复指南](./dev-tools/openclaw/snapshot-recovery.md) | 独立快照备份与恢复方案 |
 | [OpenClaw Agent 提示词技巧整理](./dev-tools/openclaw/openclaw-agent-prompt-techniques.md) | OpenClaw Agent 提示词工程最佳实践 |
+
+### 系统设计
+
+| 文档 | 描述 |
+|------|------|
+| [网页应用需求文档模板](./system-design/web-app-requirements-template.md) | 完整的网页应用需求分析模板 |
 
 ### 编程语言
 
