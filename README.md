@@ -9,8 +9,7 @@ my-learning/
 ├── ai-ml/                      # 人工智能与机器学习笔记
 │   ├── ai-tools/               # AI 工具使用指南 (NotebookLM 等)
 │   ├── mcp-servers/            # MCP 服务器文档与配置
-│   ├── ml-theory/              # 机器学习理论 (预留)
-│   └── security/               # AI/系统安全研究 (密码学、认证、安全协议)
+│   └── ml-theory/              # 机器学习理论 (预留)
 ├── dev-tools/                  # 开发工具与配置
 │   ├── claude-code/            # Claude Code 相关文档 (MCP/Skills)
 │   ├── git/                    # Git 相关文档
@@ -19,6 +18,7 @@ my-learning/
 │   └── troubleshooting/        # 问题解决方案与故障排除
 ├── programming/                # 编程语言相关笔记 (Python, JavaScript, Go, Rust 等)
 ├── system-design/              # 系统设计与架构笔记
+├── security/                   # 安全研究 (密码学、认证、安全协议、AI安全)
 ├── books/                      # 书籍笔记和摘要
 ├── docs/                       # 官方文档备份
 │   └── openclaw-official/      # OpenClaw 官方文档
@@ -42,6 +42,7 @@ my-learning/
   - 问题解决方案 → `dev-tools/troubleshooting/`
   - 编程语言笔记 → `programming/`
   - 系统设计笔记 → `system-design/`
+  - 安全研究文档 → `security/`
   - 书籍笔记 → `books/`
   - 项目代码 → `projects/`
 - **如有必要可以创建新的子目录**以更好地组织内容
@@ -69,6 +70,7 @@ my-learning/
 
 ## 近期更新记录
 
+- 2026-03-07: 重构安全目录结构，将security提升为顶级目录
 - 2026-03-07: 优化目录结构，移动量子密码学报告到security目录，添加ml-theory预留目录
 - 2026-03-07: 将DeerFlow安装问题文档移至troubleshooting目录
 - 2026-03-07: 为所有子目录添加.gitkeep文件确保git跟踪
@@ -159,13 +161,13 @@ my-learning/
 |------|------|
 | [DJI Pocket 3 完整使用指南](./dev-tools/hardware/pocket-3-guide.md) | Pocket 3 规格/设置/拍摄技巧/配件推荐 |
 
-### AI/系统安全
+### 安全研究
 
 | 文档 | 描述 |
 |------|------|
-| [量子密码算法研究报告](./ai-ml/security/quantum-cryptography-report.md) | 量子密钥分发(QKD)与后量子密码(PQC)全面分析 |
-| [密码学与安全论文阅读](./ai-ml/security/README.md) | 密码学、认证、AI 安全领域论文追踪 |
-| [每日论文模板](./ai-ml/security/daily-paper-template.md) | 论文阅读笔记模板 |
+| [量子密码算法研究报告](./security/quantum-cryptography-report.md) | 量子密钥分发(QKD)与后量子密码(PQC)全面分析 |
+| [密码学与安全论文阅读](./security/README.md) | 密码学、认证、AI 安全领域论文追踪 |
+| [每日论文模板](./security/daily-paper-template.md) | 论文阅读笔记模板 |
 
 ### 计划与规划
 
