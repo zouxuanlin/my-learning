@@ -10,11 +10,30 @@
 
 | 日期 | 标题 | 来源 | 状态 |
 |------|------|------|------|
+| 2026-03-07 | [LLM Guardrails: A Comprehensive Framework for Securing Large Language Models](#llm-guardrails-论文解析) | 安全研究综述 | ✅ 已整理 |
 | 2026-03-01 | [AgentSentry: Mitigating Indirect Prompt Injection in LLM Agents](#agentsentry-论文笔记) | arXiv:2602.22724 | ✅ 已整理 |
 
 ---
 
 ## 📝 阅读笔记
+
+### LLM Guardrails 论文解析
+
+**日期**: 2026-03-07  
+**主题**: 大语言模型安全防护框架  
+**链接**: ./llm-guardrails-framework-analysis.md
+
+详细分析了LLM Guardrails框架的核心组件、实现机制和实际应用效果。该框架提供了从输入验证、输出过滤到运行时监控的全方位安全防护。
+
+主要贡献：
+- 分层防护架构（输入层、处理层、输出层）
+- 动态策略引擎支持实时规则更新
+- 多维度威胁检测（提示注入、数据泄露、有害内容等）
+- 性能优化技术确保低延迟
+
+实际测试显示该框架能有效阻止95%以上的已知攻击向量，同时保持98%的正常功能可用性。
+
+---
 
 ### AgentSentry 论文笔记
 

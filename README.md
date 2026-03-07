@@ -166,6 +166,7 @@ my-learning/
 | 文档 | 描述 |
 |------|------|
 | [量子密码算法研究报告](./security/quantum-cryptography-report.md) | 量子密钥分发(QKD)与后量子密码(PQC)全面分析 |
+| [LLM Guardrails框架深度解析](./security/llm-guardrails-framework-analysis.md) | 大语言模型安全防护框架的全面技术分析 |
 | [密码学与安全论文阅读](./security/README.md) | 密码学、认证、AI 安全领域论文追踪 |
 | [每日论文模板](./security/daily-paper-template.md) | 论文阅读笔记模板 |
 
