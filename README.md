@@ -101,6 +101,7 @@ my-learning/
 
 | 文档 | 描述 |
 |------|------|
+| [DeerFlow 超级智能体框架详解](./ai-ml/ai-tools/deerflow.md) | 字节跳动开源的 DeerFlow 2.0 超级智能体框架架构、功能和使用指南 |
 | [Step3.5 Flash 模型介绍](./ai-ml/ai-tools/step3.5-flash-model.md) | 阶跃星辰 Step3.5 Flash 开源大语言模型技术特点与优势分析 |
 | [Google NotebookLM 完整指南](./ai-ml/ai-tools/notebooklm.md) | NotebookLM 功能、架构、使用技巧全解析 |
 | [Browser MCP 完整指南](./ai-ml/mcp-servers/browser-mcp-guide.md) | 浏览器自动化 MCP 服务器配置与使用 |
