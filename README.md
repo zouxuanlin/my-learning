@@ -24,7 +24,7 @@ my-learning/
 │   └── openclaw-official/      # OpenClaw 官方文档
 ├── presentations/              # 演示文稿
 ├── projects/                   # 学习项目代码
-└── todo/                       # 待办事项和问题跟踪
+└── todo/                       # 待办事项和问题跟踪 (临时目录，具体问题应移至troubleshooting)
 ```
 
 ## 规范
@@ -45,6 +45,7 @@ my-learning/
   - 书籍笔记 → `books/`
   - 项目代码 → `projects/`
 - **如有必要可以创建新的子目录**以更好地组织内容
+- **todo目录仅用于临时待办事项**，具体的技术问题文档应移至`dev-tools/troubleshooting/`
 
 ## 工作流程规范
 
@@ -68,6 +69,9 @@ my-learning/
 
 ## 近期更新记录
 
+- 2026-03-07: 优化目录结构，移动量子密码学报告到security目录，添加ml-theory预留目录
+- 2026-03-07: 将DeerFlow安装问题文档移至troubleshooting目录
+- 2026-03-07: 为所有子目录添加.gitkeep文件确保git跟踪
 - 2026-03-03: 添加阿里云通义千问大模型对比分析PPT
 - 2026-03-03: 添加 OpenClaw 官方文档备份
 - 2026-03-03: 添加网页应用需求文档模板
@@ -97,6 +101,7 @@ my-learning/
 | [Zsh 拷贝粘贴卡顿解决方案](./dev-tools/troubleshooting/zsh-copy-paste-lag-solution.md) | 解决 macOS zsh 终端拷贝命令执行卡顿问题 |
 | [Browser MCP 无法调用解决方案](./dev-tools/troubleshooting/claude-mcp-browsermcp-solution.md) | 解决 Claude CLI 中 Browser MCP 配置无法识别的问题 |
 | [GitHub MCP 连接失败解决方案](./dev-tools/troubleshooting/github-mcp-connection-fix.md) | 解决 GitHub MCP Server 连接失败问题 |
+| [DeerFlow安装问题总结](./dev-tools/troubleshooting/deerflow-installation-issues.md) | DeerFlow 2.0 安装过程中遇到的网络和配置问题总结 |
 
 ### AI 工具与 MCP 服务器
 
@@ -158,7 +163,7 @@ my-learning/
 
 | 文档 | 描述 |
 |------|------|
-| [量子密码算法研究报告](./ai-ml/quantum-cryptography-report.md) | 量子密钥分发(QKD)与后量子密码(PQC)全面分析 |
+| [量子密码算法研究报告](./ai-ml/security/quantum-cryptography-report.md) | 量子密钥分发(QKD)与后量子密码(PQC)全面分析 |
 | [密码学与安全论文阅读](./ai-ml/security/README.md) | 密码学、认证、AI 安全领域论文追踪 |
 | [每日论文模板](./ai-ml/security/daily-paper-template.md) | 论文阅读笔记模板 |
 
