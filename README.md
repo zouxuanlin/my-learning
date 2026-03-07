@@ -6,7 +6,7 @@
 
 - `ai-ml/` - 人工智能与机器学习笔记
   - `mcp-servers/` - MCP 服务器文档与配置
-  - `ai-tools/` - AI 工具使用指南 (NotebookLM 等)
+  - `ai-tools/` - AI 工具使用指南 (NotebookLM, IronClaw 等)
   - `ml-theory/` - 机器学习理论
 - `books/` - 书籍笔记和摘要
 - `dev-tools/` - 开发工具与配置
