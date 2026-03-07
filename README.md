@@ -23,7 +23,8 @@ my-learning/
 ├── docs/                       # 官方文档备份
 │   └── openclaw-official/      # OpenClaw 官方文档
 ├── presentations/              # 演示文稿
-└── projects/                   # 学习项目代码
+├── projects/                   # 学习项目代码
+└── todo/                       # 待办事项和问题跟踪
 ```
 
 ## 规范
